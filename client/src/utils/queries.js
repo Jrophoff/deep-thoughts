@@ -67,6 +67,7 @@ export const QUERY_ME = gql`
       friendCount
       thoughts {
         _id
+        thoughtText
         createdAt
         reactionCount
         reactions {
